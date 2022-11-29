@@ -1,0 +1,76 @@
+/* Write CSS here */
+/* Write CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.main-container {
+  height: 100vh;
+  background-image: url(https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png);
+  background-size: cover;
+}
+@media (max-width: 576px) {
+  .main-container {
+    background-image: url(https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png);
+  }
+}
+.content-container {
+  width: 60%;
+  text-align: center;
+}
+.watch-container {
+  display: flex;
+  justify-content: center;
+}
+.watch-box {
+  padding: 10px;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.heading {
+  font-family: Roboto;
+  margin: 20px;
+}
+.watch-title {
+  display: flex;
+  font-size: 22px;
+  font-weight: 600;
+  align-items: center;
+}
+.watch-img {
+  padding: 20px 10px;
+}
+.timer {
+  font-size: 60px;
+}
+.btn-box {
+  margin-top: 10px;
+}
+.btn {
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  color: #ffff;
+  font-family: Roboto;
+  border-radius: 8px;
+  width: 100px;
+}
+
+.start {
+  background-color: #1db05f;
+}
+.stop {
+  background-color: #ef0d36;
+}
+.reset {
+  background-color: #eaa800;
+}
